@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+/*slider */
+#dvslider{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/*botão do slider */
+.btSlider{
+    background-color: rgba(17, 0, 167, 0.761);
+    height: 35%;
+    width: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    cursor:pointer;
+    outline: none;
+    margin: 10px;
+    border: none;
+}
+/* barra de load  */
+#dvload{
+    width: 100%;
+    height: 5px;
+    margin-top: 25%;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#dvbarra{
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.275);
+}
+
+    </style>
+</head>
+<body>
+        <h1>Seja bem vindo a MarQ</h1>
+
+
+        <!--Slider de apresentação-->
+        <div id="dvslider">
+           <button class="btSlider" onclick="troca(-1)" ><</button>
+            <div id="dvload"> 
+            <div id="dvbarra">
+            
+            </div>
+            </div>
+            <button class="btSlider" onclick="troca(1)">></button>
+        </div>
+
+    
+    
+    
+    <br>
+    <br>
+    <br>
+    <!--Div com informações-->
+    <section>
+        <div id="benf">
+            <h2>Veja nossos Benefícios</h2>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Quo perferendis, rem iusto eos repellendus distinctio laborum placeat commodi  <br> natus sed vitae minima expedita enim culpa eius nihil delectus mollitia accusamus?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Quo perferendis, rem iusto eos repellendus distinctio laborum placeat commodi  <br> natus sed vitae minima expedita enim culpa eius nihil delectus mollitia accusamus?</p>
+         
+        </div>
+    </section>
+
+     <br>
+     <br>
+     <br>
+   <!--Form-->
+    <section>
+        <div id="formcta">
+            <br>
+             <img src="topz.png" alt="">
+             <br>
+             <br>
+             <p>Preencha os dados para prosseguir...</p>
+        </div>
+    </section>
+
+    <br>
+    <br>
+   
+
+    <!--Formulário de contratação-->
+    <div id="box">
+        <form action="">
+        <fieldset>
+            <legend  id="leg"><b style="color: black;">Formulário para contratação</b></legend>
+            <br>
+
+    <div class="inputBox" >
+        <label for="">Nome Completo:</label>
+        <input type="text" name="" id="" class="inputUser" required   style="width: 900px;">
+    <div class="inputBox" >
+        <br>
+
+    <div id="inputBox"> 
+        <label for="">Data de nascimento:</label>
+        <input type="date" name="data_nascimento" id="" class="inputUser" required  style="width: 250px;" >
+        
+        <label for=""><b>Sexo:</b></label>
+        <select name="" id=""  style="width: 150px;" >
+            <option value=""></option>
+            <option value="Masc">Masculino</option>
+            <option value="Masc">Feminino</option>
+        </select>
+
+       <label for=""><b>Estado Civil:</b></label>
+       <select name="" id=""  style="width: 198px;">
+           <option value=""></option>
+           <option value="">Solteiro(a)</option>
+           <option value="">Casado(a)</option>
+           <option value="">União estável</option>
+           <option value="">Divorciado(a)</option>
+           <option value="">Viúvo(a)</option>
+        </select>
+    </div>
+
+    <br>
+        
+       
+                
+    
+    <div class="inputBox" >
+        <label for="">Telefone:</b></label>
+          <input type="text" name="telf" id="telf" class="inputUser" style="width: 990px;">
+    </div>
+
+    <br>
+    
+    <div class="inputBox" >
+        <label for="">Endereço residencial:</b></label>
+          <input type="text" name="telf" id="Ender" class="inputUser" style="width: 832px;">
+    </div>
+
+    <br>
+
+    <div class="inputBox">
+        <label for="">Grau de instrução:</b></label>
+            <select name="" id="" style="width: 875px;">
+                 <option value=""></option>
+                 <option value="">Cursando Ensino Superior</option>
+                 <option value="">Cursando Técnico</option>
+                 <option value="">Curso Superior Concluído</option>
+                 <option value="">Curso Técnico Concluído</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div class="inputBox" >
+        <label for="">Número do RG:</b></label>
+          <input type="text" name="Numero_do_RG" id="NDR" class="inputUser" style="width: 909px;">
+    </div>
+
+    <br>
+
+    <div class="inputBox" >
+        <label for="">Registro profissional:</b></label>
+          <input type="text" name="ResgistroP" id="RP" class="inputUser" style="width: 835px;">
+    </div>
+    
+    <br>
+
+    <div class="inputBox" >
+        <label for="">Número da carteira de trabalho:</b></label>
+          <input type="text" name="Numero_da_carteiraT" id="NDCT" class="inputUser" style="width: 692px;">
+    </div>
+
+    <br>
+  
+    <div class="inputBox" >
+        <label for="">PIS ou NIS:</b></label>
+          <input type="text" name="PIs ou NIS" id="PINI" class="inputUser" style="width: 962px;">
+    </div>
+
+    <br>
+    
+    <div class="inputBox" >
+        <label for="">Número da CNH:</b></label>
+          <input type="text" name="CNH" id="CHN" class="inputUser" style="width: 890px;">
+    </div>
+
+    <br>
+
+    <legend id="leg"><b>Dados Bancários:</b></legend>
+    <br>
+
+    <br>
+
+    <div class="inputBoxNdc" >
+        <label for="">Número da conta:</b></label>
+        <input type="text" name="numDc" id="numDc" style="width: 459px;">
+        
+        
+        <label for="Corrente">Corrente</label>
+        <input type="radio" id="Corrente" name="Corrente" value="Corrente" required >
+
+       
+        <label for="Poupanca">Poupança</label>
+        <input type="radio" id="Poupanca" name="pup" value="poup" required> 
+       
+       
+        <label for="Salario">Salario</label>
+        <input type="radio" id="Salario" name="sal" value="Salário" required>  
+        
+        
+        
+      
+
+    </div>
+    <br>
+
+    <div class="inputBox" >
+        <label for="">Agencia / Numero do digito:</label>
+          <input type="text" name="agencia" id="NdoDigito" class="inputUser" style="width: 742px;">
+    </div>
+
+    <br>
+
+    <div class="inputBox" >
+        <label for="">Nome da Mãe:</label> 
+          <input type="text" name="Mãe" id="Mãe" style="width: 925px;">
+    </div>
+
+    <br>
+
+    <div class="inputBox" >
+        <label for="">Nome do Pai:</label>
+          <input type="text" name="Pai" id="Pai" style="width: 940px;">
+    </div>
+
+    <br>
+    <div id="btnE">
+        <button id="btnEn">Enviar informações</button>
+    </div>
+
+
+
+
+
+
+        </fieldset>
+        </form>
+    </div>
+
+    <footer>
+
+        <div id="instagram"></div>
+        <div id="Linkdln"></div>
+        <div id=""></div>
+        <div id="instagram"></div>
+
+    </footer>
+
+    
+    
+
+</body>
+</html>
+
+</head>
+<body>
+    <script src="javascript.js"></script>
+ 

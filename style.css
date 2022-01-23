@@ -1,0 +1,158 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 25px;
+    
+}
+
+#slider{
+    background-color: rgb(255, 0, 0);
+    width: 1000px;
+    height: 350px;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+.btnSlider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dvslider{
+    width: 100%;
+    height: 400px;
+}
+
+.btnSlider{
+    background-color: #3127C5;
+}
+
+#hbv{
+    text-align: center;
+}
+
+
+
+
+#dvb{
+ 
+   width: 100%;
+   height: 400px;
+   background-color: blue;
+   margin: auto;
+    
+    
+    
+}
+
+#benf{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+
+    background-color: #3127C5;
+
+}
+
+#formcta{
+    width: 100;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: #3127C5 ;
+}
+
+#leg{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+#box{
+    display: flex;
+    padding: 45px;
+    width: 400px;
+    
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+
+}
+
+fieldset{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 35px;
+    background-color:#3127C5;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.344);
+}
+
+#btnE{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+
+
+button:hover{
+    color: red;
+    
+
+}
