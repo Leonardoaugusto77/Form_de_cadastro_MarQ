@@ -7,7 +7,7 @@
  
  <br>
  
- <li>Foi utilizado JavaScript para criar o Slider e ações com os Botoes presentes no projeto!</li>
+ <li>Foi utilizado JavaScript para criar o Slider e ações com os Botões presentes no projeto!</li>
  
  <br>
  <img src="Screenshot_92.png" alt="">
